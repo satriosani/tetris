@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 
 st.markdown("<h1 style='text-align: center;'>Kendaraan Bertenaga Listrik,</h1>", unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center;'>Ramah atau Menambah Masalah?</h1>", unsafe_allow_html=True)
-st.caption("Oleh : Satrio Sani Sadewo | sani.rio@gmail.com")
+st.caption("Oleh : Satrio Sani Sadewo | mail : sani.rio@gmail.com | github : https://github.com/satriosani/tetris")
 
 st.write("Krisis lingkungan hidup mulai dirasakan di berbagai belahan dunia. Tidak dapat dipungkiri bahwa hasil emisi gas karbon yang bersumber dari fossil termasuk salah satu penyebabnya. Berbagai upaya terus dilakukan untuk melawan permasalahan ini. Salah satunya adalah dengan memanfaatkan listrik sebagai tenaga penggerak kendaraan, yang diklaim sebagai kendaraan ramah lingkungan. Benarkah?")
 
