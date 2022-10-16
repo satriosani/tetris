@@ -36,14 +36,14 @@ with col1:
 
         fig_market_line = px.line(df_coba_opt, x="year",
                             y="value", color="unit",
-                            title="Data Penjualan vs Stok"+kendaraan_opt)
+                            title="Data Penjualan vs Stok "+kendaraan_opt)
         st.plotly_chart(fig_market_line, use_container_width=True)
 
     if grafik_opt == "Relative Percentage":
         fig_market_bar = px.histogram(df_coba_opt, x="year",
                             y="value", color="unit",
                             barnorm='percent', text_auto='.2f',
-                            title="Data Penjualan vs Stok")
+                            title="Data Penjualan vs Stok "+kendaraan_opt)
         st.plotly_chart(fig_market_bar, use_container_width=True)
 
 st.write("Mari kita lihat trend data penjualan kendaraan listrik di seluruh dunia yang diperoleh dari hasil riset International Energy Agency. Dari tahun ke tahun mengalami pengingkatan penjualan kendaraan listrik baik berjenis PHEV maupun BEV. Antara supply dengan demand juga menunjukkan kondisi yang sehat jika dilihat dari perbandingan persentase penjualan dan stok. Pada tahun 2010 perbandingan penjualan dan stok sebesar 48.90% : 51.10%. Sedangkan di tahun 2020 mencapai 25.21% : 74.49%. Angka penjualan yang terus naik artinya permintaan juga bertambah. Oleh karena itu produsen terus meningkatkan produksi kendaraan listrik yang dapat dilihat dari kenaikan data stok kendaraan listrik baik tipe PHEV maupun BEV. ")
