@@ -36,7 +36,7 @@ with col1:
 
         fig_market_line = px.line(df_coba_opt, x="year",
                             y="value", color="unit",
-                            title="Data Penjualan vs Stok")
+                            title="Data Penjualan vs Stok"+kendaraan_opt)
         st.plotly_chart(fig_market_line, use_container_width=True)
 
     if grafik_opt == "Relative Percentage":
