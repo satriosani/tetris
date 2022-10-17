@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import plotly.express as px
+from PIL import Image
 
 st.set_page_config(layout="wide")
 
@@ -9,8 +10,14 @@ st.markdown("<h1 style='text-align: center;'>Kendaraan Bertenaga Listrik,</h1>",
 st.markdown("<h1 style='text-align: center;'>Ramah atau Menambah Masalah?</h1>", unsafe_allow_html=True)
 st.caption("Oleh : Satrio Sani Sadewo | mail : sani.rio@gmail.com | github : https://github.com/satriosani/tetris")
 
-st.write("Krisis lingkungan hidup mulai dirasakan di berbagai belahan dunia. Tidak dapat dipungkiri bahwa hasil emisi gas karbon yang bersumber dari fossil termasuk salah satu penyebabnya. Bagaimana dengan di Indonesia? Melalui laporan Inventarisasi Emisi GRK (Gas Rumah Kaca) Bidang Energi yang diterbitkan oleh Pusat Data dan Teknologi Informasi Kementerian ESDM tahun 2020, dipaparkan bahwa konsumsi bahan bakar di Indonesia mengalami peningkatan dengan rata-rata pertumbuhan sebesar 3,71% per Tahun (Kementerian ESDM, 2020: 15). Kemudian untuk emisi yang dihasilkan, jika dibandingkan dengan tahun sebelumnya, emisi pada tahun 2019 mengalami kenaikan sebesar 7.13% dengan rata-rata peningkatan sebesar 4,32% per tahun. Kategori paling banyak menyumbang emisi adalah industri produsen energi sebesar 43,83% diikuti sektor transportasi sebesar 24,64% (Kementerian ESDM, 2020: 28-29). Berbagai upaya terus dilakukan untuk melawan permasalahan ini. Salah satunya adalah dengan memanfaatkan listrik sebagai tenaga penggerak kendaraan, yang diklaim sebagai kendaraan ramah lingkungan. Benarkah?")
+cola, colb = st.columns(2)
 
+with cola:
+    st.write("Krisis lingkungan hidup mulai dirasakan di berbagai belahan dunia. Tidak dapat dipungkiri bahwa hasil emisi gas karbon yang bersumber dari fossil termasuk salah satu penyebabnya. Bagaimana dengan di Indonesia? Melalui laporan Inventarisasi Emisi GRK (Gas Rumah Kaca) Bidang Energi yang diterbitkan oleh Pusat Data dan Teknologi Informasi Kementerian ESDM tahun 2020, dipaparkan bahwa konsumsi bahan bakar di Indonesia mengalami peningkatan dengan rata-rata pertumbuhan sebesar 3,71% per Tahun (Kementerian ESDM, 2020: 15). Kemudian untuk emisi yang dihasilkan, jika dibandingkan dengan tahun sebelumnya, emisi pada tahun 2019 mengalami kenaikan sebesar 7.13% dengan rata-rata peningkatan sebesar 4,32% per tahun. Kategori paling banyak menyumbang emisi adalah industri produsen energi sebesar 43,83% diikuti sektor transportasi sebesar 24,64% (Kementerian ESDM, 2020: 28-29). Berbagai upaya terus dilakukan untuk melawan permasalahan ini. Salah satunya adalah dengan memanfaatkan listrik sebagai tenaga penggerak kendaraan, yang diklaim sebagai kendaraan ramah lingkungan. Benarkah?")
+with colb:
+    gambar = Image.open('https://www.esdm.go.id/assets/imagecache/thumbnailPublikasi/content-inventarisasi-emisi-gas-rumah-kaca-sektor-energi-tahun-2020-0hcxzmy.png')
+    st.image(gambar, caption='Inventarisasi Emisi GRK Bidang Energi 2020')
+    
 st.subheader("Data Penjualan Mobil Listrik")
 st.caption("sumber : International Energy Agency")
 st.write("Dataset dari International Energy Agency memberikan 2 jenis kendaraan bertenaga listrik, yaitu kendaraan bertipe PHEV (Plug-in Hybrid Electric Vehicle) dan BEV (Battery Electric Vehicle). Mobil PHEV ini memadukan dua mesin sekaligus yaitu mesin bertenaga konvensional (BBM) dan mesin bertenaga listrik dari battery. Sedangkan mobil BEV benar-benar full mengandalkan tenaga battery / tenaga listrik sebagai penggeraknya. Berikut adalah tampilan grafik penjualan dan stok kedua jenis kendaraan listrik :")
