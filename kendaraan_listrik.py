@@ -9,7 +9,7 @@ st.markdown("<h1 style='text-align: center;'>Kendaraan Bertenaga Listrik,</h1>",
 st.markdown("<h1 style='text-align: center;'>Ramah atau Menambah Masalah?</h1>", unsafe_allow_html=True)
 st.caption("Oleh : Satrio Sani Sadewo | mail : sani.rio@gmail.com | github : https://github.com/satriosani/tetris")
 
-st.write("Krisis lingkungan hidup mulai dirasakan di berbagai belahan dunia. Tidak dapat dipungkiri bahwa hasil emisi gas karbon yang bersumber dari fossil termasuk salah satu penyebabnya. Berbagai upaya terus dilakukan untuk melawan permasalahan ini. Salah satunya adalah dengan memanfaatkan listrik sebagai tenaga penggerak kendaraan, yang diklaim sebagai kendaraan ramah lingkungan. Benarkah?")
+st.write("Krisis lingkungan hidup mulai dirasakan di berbagai belahan dunia. Tidak dapat dipungkiri bahwa hasil emisi gas karbon yang bersumber dari fossil termasuk salah satu penyebabnya. Bagaimana dengan di Indonesia? Melalui laporan Inventarisasi Emisi GRK (Gas Rumah Kaca) Bidang Energi yang diterbitkan oleh Pusat Data dan Teknologi Informasi Kementerian ESDM tahun 2020, dipaparkan bahwa konsumsi bahan bakar di Indonesia mengalami peningkatan dengan rata-rata pertumbuhan sebesar 3,71% per Tahun (ESDM, 2020: 15). Kemudian untuk emisi yang dihasilkan, jika dibandingkan dengan tahun sebelumnya, emisi pada tahun 2019 mengalami kenaikan sebesar 7.13% dengan rata-rata peningkatan sebesar 4,32% per tahun. Kategori paling banyak menyumbang emisi adalah industri produsen energi sebesar 43,83% diikuti sektor transportasi sebesar 24,64% (ESDM, 2020: 28-29). Berbagai upaya terus dilakukan untuk melawan permasalahan ini. Salah satunya adalah dengan memanfaatkan listrik sebagai tenaga penggerak kendaraan, yang diklaim sebagai kendaraan ramah lingkungan. Benarkah?")
 
 st.subheader("Data Penjualan Mobil Listrik")
 st.caption("sumber : International Energy Agency")
@@ -181,6 +181,7 @@ st.markdown(
 - Andriarsi, M. K., (2021, June 02). Adu Emisi Mobil Listrik vs Konvensional. https://databoks.katadata.co.id/datapublish/2021/06/02/adu-emisi-mobil-listrik-vs-konvensional
 - International Energy Agency. (2022). Global EV Outlook 2022. https://www.iea.org/data-and-statistics/data-product/global-ev-outlook-2022
 - Kementerian ESDM RI. (2017, August 11). Mengenal Jenis dan Tingkat Emisi Mobil Listrik. https://www.esdm.go.id/en/media-center/news-archives/mengenal-jenis-dan-tingkat-emisi-mobil-listrik
+- Kementerian ESDM RI. (2020). Inventarisasi Emisi GRK Bidang Energi. https://www.esdm.go.id/assets/media/content/content-inventarisasi-emisi-gas-rumah-kaca-sektor-energi-tahun-2020.pdf
 - Peraturan Presiden Perpres Nomor 55 Tahun 2019 tanggal 08 Agustus 2019 tentang Percepatan Program Kendaraan Bermotor Listrik Berbasis Baterai (Battery Electric Vehicle/BEV) untuk Transportasi Jalan. https://jdih.esdm.go.id/storage/document/Perpres%20Nomor%2055%20Tahun%202019.pdf"
 - Rithie, H., & Roser, M. (2022). CO2 Emissions. https://ourworldindata.org/co2-emissions
 - Rithie, H., & Roser, M. (2022). Electricity Mix. https://ourworldindata.org/electricity-mix
