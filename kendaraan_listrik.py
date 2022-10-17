@@ -13,7 +13,7 @@ st.write("Krisis lingkungan hidup mulai dirasakan di berbagai belahan dunia. Tid
 
 st.subheader("Data Penjualan Mobil Listrik")
 st.caption("sumber : International Energy Agency")
-st.write("Dataset dari International Energy Agency memberikan 2 jenis kendaraan bertenaga listrik yaitu kendaraan bertipe PHEV (Plug-in Hybrid Electric Vehicle) dan BEV (Battery Electric Vehicle). Mobil PHEV ini memadukan dua mesin sekaligus yaitu mesin bertenaga konvesional (BBM) dan mesin bertenaga listrik dari battery. Sedangkan mobil BEV benar-benar full mengandalkan tenaga battery / tenaga listrik sebagai penggeraknya. Berikut adalah tampilan grafik penjualan dan stok kedua jenis kendaraan listrik :")
+st.write("Dataset dari International Energy Agency memberikan 2 jenis kendaraan bertenaga listrik, yaitu kendaraan bertipe PHEV (Plug-in Hybrid Electric Vehicle) dan BEV (Battery Electric Vehicle). Mobil PHEV ini memadukan dua mesin sekaligus yaitu mesin bertenaga konvensional (BBM) dan mesin bertenaga listrik dari battery. Sedangkan mobil BEV benar-benar full mengandalkan tenaga battery / tenaga listrik sebagai penggeraknya. Berikut adalah tampilan grafik penjualan dan stok kedua jenis kendaraan listrik :")
 
 df_ev = pd.read_csv("IEA-EV-data.csv")
 df_get_region = df_ev.drop_duplicates("region", keep='first')
