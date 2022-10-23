@@ -21,7 +21,7 @@ with colb:
 colc, cold = st.columns(2)
 
 with colc:
-    st.write(" Kemudian untuk emisi yang dihasilkan, jika dibandingkan dengan tahun sebelumnya, emisi pada tahun 2019 mengalami kenaikan sebesar 7.13% dengan rata-rata peningkatan sebesar 4,32% per tahun.")
+    st.write(" Kemudian untuk emisi yang dihasilkan, jika dibandingkan dengan tahun sebelumnya, emisi pada tahun 2019 mengalami kenaikan sebesar 7.13% dengan rata-rata peningkatan sebesar 4,32% per tahun.(Kementerian ESDM, 2020: 28)")
 
 with cold:
     st.write("Emisi GRK Berdasarkan Pendekatan Kategori di Indonesia")
@@ -31,7 +31,7 @@ with cold:
 cole, colf = st.columns(2)
 
 with cole:
-    st.write("Kategori paling banyak menyumbang emisi adalah industri produsen energi sebesar 43,83% diikuti sektor transportasi sebesar 24,64% (Kementerian ESDM, 2020: 28-29). Berbagai upaya terus dilakukan untuk melawan permasalahan ini. Salah satunya adalah dengan memanfaatkan listrik sebagai tenaga penggerak kendaraan, yang diklaim sebagai kendaraan ramah lingkungan. Benarkah?")
+    st.write("Kategori paling banyak menyumbang emisi adalah industri produsen energi sebesar 43,83% diikuti sektor transportasi sebesar 24,64% (Kementerian ESDM, 2020: 29). Berbagai upaya terus dilakukan untuk melawan permasalahan ini. Salah satunya adalah dengan memanfaatkan listrik sebagai tenaga penggerak kendaraan, yang diklaim sebagai kendaraan ramah lingkungan. Benarkah?")
     
 with colf:    
     st.write("Kontribusi Setiap Kategori dalam Emisi GRK Tahun 2019 di Indonesia")
