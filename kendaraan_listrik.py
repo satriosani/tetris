@@ -16,11 +16,11 @@ with cola:
 
 with colb:
     st.image(esdm1.PNG, caption='Konsumsi Bahan Bakar per Kategori')
-    st.caption("sumber : "Inventarisasi Emisi GRK Bidang Energi, Kementerian ESDM RI 2020")
+    st.caption("sumber : Inventarisasi Emisi GRK Bidang Energi, Kementerian ESDM RI 2020")
 
 with colc:
     st.image(esdm2.PNG, caption='Kontribusi Setiap Kategori dalam Emisi GRK Tahun 2019 di Indonesia')
-    st.caption("sumber : "Inventarisasi Emisi GRK Bidang Energi, Kementerian ESDM RI 2020")
+    st.caption("sumber : Inventarisasi Emisi GRK Bidang Energi, Kementerian ESDM RI 2020")
     
 st.subheader("Data Penjualan Mobil Listrik")
 st.caption("sumber : International Energy Agency")
