@@ -9,17 +9,22 @@ st.markdown("<h1 style='text-align: center;'>Kendaraan Bertenaga Listrik,</h1>",
 st.markdown("<h1 style='text-align: center;'>Ramah atau Menambah Masalah?</h1>", unsafe_allow_html=True)
 st.caption("Oleh : Satrio Sani Sadewo | mail : sani.rio@gmail.com | github : https://github.com/satriosani/tetris")
 
-cola, colb, colc = st.columns(3)
+cola, colb = st.columns(2)
 
 with cola:
     st.write("Krisis lingkungan hidup mulai dirasakan di berbagai belahan dunia. Tidak dapat dipungkiri bahwa hasil emisi gas karbon yang bersumber dari fossil termasuk salah satu penyebabnya. Bagaimana dengan di Indonesia? Melalui laporan Inventarisasi Emisi GRK (Gas Rumah Kaca) Bidang Energi yang diterbitkan oleh Pusat Data dan Teknologi Informasi Kementerian ESDM tahun 2020, dipaparkan bahwa konsumsi bahan bakar di Indonesia mengalami peningkatan dengan rata-rata pertumbuhan sebesar 3,71% per Tahun (Kementerian ESDM, 2020: 15). Kemudian untuk emisi yang dihasilkan, jika dibandingkan dengan tahun sebelumnya, emisi pada tahun 2019 mengalami kenaikan sebesar 7.13% dengan rata-rata peningkatan sebesar 4,32% per tahun. Kategori paling banyak menyumbang emisi adalah industri produsen energi sebesar 43,83% diikuti sektor transportasi sebesar 24,64% (Kementerian ESDM, 2020: 28-29). Berbagai upaya terus dilakukan untuk melawan permasalahan ini. Salah satunya adalah dengan memanfaatkan listrik sebagai tenaga penggerak kendaraan, yang diklaim sebagai kendaraan ramah lingkungan. Benarkah?")
 
 with colb:
-    st.image('esdm1.PNG', caption='Konsumsi Bahan Bakar per Kategori')
+    st.write("Konsumsi Bahan Bakar per Kategori di Indonesia")
+    st.image('esdm1.PNG')
     st.caption("sumber : Inventarisasi Emisi GRK Bidang Energi, Kementerian ESDM RI 2020")
 
-with colc:
-    st.image('esdm2.PNG', caption='Kontribusi Setiap Kategori dalam Emisi GRK Tahun 2019 di Indonesia')
+    st.write("Emisi GRK Berdasarkan Pendekatan Kategori di Indonesia")
+    st.image('esdm3.PNG')
+    st.caption("sumber : Inventarisasi Emisi GRK Bidang Energi, Kementerian ESDM RI 2020")
+    
+    st.write("Kontribusi Setiap Kategori dalam Emisi GRK Tahun 2019 di Indonesia")
+    st.image('esdm2.PNG')
     st.caption("sumber : Inventarisasi Emisi GRK Bidang Energi, Kementerian ESDM RI 2020")
     
 st.subheader("Data Penjualan Mobil Listrik")
